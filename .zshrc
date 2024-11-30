@@ -95,12 +95,15 @@ plugins=(
   tmux 
   zsh-autosuggestions
   zsh-syntax-highlighting
+  zsh-autocomplete
   z)
 
+#source ~/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+export PATH="$PATH:/opt/nvim-linux64/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
